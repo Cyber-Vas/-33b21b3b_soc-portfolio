@@ -1,5 +1,3 @@
-# Re-run after environment reset
-readme_content = """
 # 🛡️ SOC Analyst Portfolio
 
 Hands-on cybersecurity projects focused on threat detection, log analysis, and incident response.
@@ -30,17 +28,3 @@ Aspiring SOC Analyst with practical skills in SIEM platforms, packet analysis, a
 - Splunk detection rule creation
 - Incident triage and investigation
 - Threat intelligence research and enrichment
-
----
-
-## 🔗 Links
-
-- [LinkedIn] (https://www.linkedin.com/in/-33b21b3b/)
-
-"""
-
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w") as f:
-    f.write(readme_content.strip())
-
-readme_path
